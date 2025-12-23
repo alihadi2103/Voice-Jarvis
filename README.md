@@ -136,16 +136,14 @@ For more details make sure to visit these files to look at script arguments and 
     if you dont want to convert use `--not-convert` 
         
 2. Train model
-    1. use `train.py` to fine tune. argparse for
+    1. use `train.py` to fine tune.
+       python train.py 
     ```
-       python train.py --train_file /path/to/train/json --valid_file /path/to/valid/json --load_model_from /path/to/pretrain/speechrecognition.ckpt
-    ```
-   2. To train from scratch omit the `--load_model_from` argument in train.py
-   3. after model training us `optimize_graph.py` to create a frozen optimized pytorch model. 
+
+   2. after model training us `optimize_graph.py` to create a frozen optimized pytorch model. 
 
 
 3. test
     1. test using the `engine.py` script
 
-## Raspberry pi
-documenation to get this running on rpi is in progress...
+
