@@ -6,12 +6,12 @@
 
 TODO:
 - [x] wake word model and engine
-- [ ] pre-trained wake word model use for fine tuning on your own wakeword
+- [x] pre-trained wake word model use for fine tuning on your own wakeword
 - [x] speech recognition model, pretrained model, and engine
-- [ ] natural langauge understanding model, pretrained model, and engine
-- [ ] speech synthesis model, pretrained model, and engine
-- [ ] skills framework
-- [ ] Core A.I. Voice Assistant logic to integrate wake word, speech recongition, natural language understanding, speech sysnthesis, and the skills framework.
+- [x] natural langauge understanding model, pretrained model, and engine
+- [x] speech synthesis model, pretrained model, and engine
+- [x] skills framework
+- [x] Core A.I. Voice Assistant logic to integrate wake word, speech recongition, natural language understanding, speech sysnthesis, and the skills framework.
 
 ## Running on native machine
 ### dependencies
